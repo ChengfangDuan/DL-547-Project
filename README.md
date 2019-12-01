@@ -1,6 +1,6 @@
 ## Deep Learning Project Code Instruction
 ---
-> Before running
+#### Before running
 - Data preparation (download and unzip)
     - [2014 Train images [83K/13GB]](http://images.cocodataset.org/zips/train2014.zip)
     - [2014 Val images [41K/6GB]](http://images.cocodataset.org/zips/val2014.zip)
@@ -24,7 +24,7 @@
             - dataset_coco.json
         - output [manually add this folder]
 ---
-> Start running
+#### Start running
 - step1: generate initial files
     - setting: vim create_input_files.py
         - karpathy_json_path='./data/dataset_coco.json'
